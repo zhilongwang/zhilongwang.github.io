@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Zhilong Wang - Security Engineer & Researcher specializing in program analysis, software security, and AI for security">
   <meta name="author" content="Zhilong Wang">
-  <title>Zhilong Wang | Security Researcher</title>
+  <title>Projects | Zhilong Wang</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -31,44 +31,36 @@
   </div>
 </nav>
 
-<section class="hero">
+<section id="projects">
   <div class="container">
-    <div class="hero-content">
-      <div class="hero-text">
-        <div class="section-label">Security Engineer & Researcher</div>
-        <h1>Hi, I'm <span>Zhilong Wang</span></h1>
-        <p class="tagline">Program Analysis &middot; Software Security &middot; AI for Security</p>
-        <p class="bio" id="about">
-          Security Engineer at ByteDance and Ph.D. from Penn State University.
-          I build systems that protect software by customizing compilers and OS kernels, adopt program analysis to detect software defects,
-          and leverage deep learning to facilitate security-oriented analysis. My work spans LLM security, vulnerability discovery, and security infrastructure.
-        </p>
-        <div class="hero-buttons">
-          <a href="https://scholar.google.com/citations?user=POZRVgoAAAAJ" class="btn btn-primary" target="_blank">Google Scholar</a>
-          <a href="https://github.com/zhilongwang" class="btn btn-secondary" target="_blank">GitHub</a>
-          <a href="resume/cv_en.pdf" class="btn btn-secondary" target="_blank">CV</a>
-          <a href="mailto:izhilongwang@gmail.com" class="btn btn-secondary">Contact</a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-number">14+</div>
-            <div class="stat-label">Publications</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">3</div>
-            <div class="stat-label">Open Source</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">8+</div>
-            <div class="stat-label">Years Research</div>
-          </div>
+    <div class="section-label">Open Source</div>
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="card project-card fade-in">
+        <span class="project-tag">Security</span>
+        <h3><a href="https://github.com/zhilongwang/LLMAgentProtector" target="_blank">LLMAgentProtector</a></h3>
+        <p>A lightweight LLM Agent Protector that defends against prompt injection attacks using polymorphic prompt techniques.</p>
+        <div class="project-meta">
+          <span>Python</span>
+          <span>&#9733; 6</span>
         </div>
       </div>
-      <div class="hero-image">
-        <div class="photo-wrapper">
-          <img src="images/zlw_2.jpg" alt="Zhilong Wang" />
-          <img src="images/zlw_3.jpg" alt="" />
-          <img src="images/zlw_4.jpg" alt="" />
+      <div class="card project-card fade-in">
+        <span class="project-tag">Systems</span>
+        <h3><a href="https://github.com/zhilongwang/PolymorphicCanaries" target="_blank">PolymorphicCanaries</a></h3>
+        <p>Implementation of Polymorphic Canaries for detecting stack buffer overflows, published at IEEE/IFIP DSN 2018.</p>
+        <div class="project-meta">
+          <span>C++</span>
+          <span>&#9733; 9</span>
+        </div>
+      </div>
+      <div class="card project-card fade-in">
+        <span class="project-tag">Protocol</span>
+        <h3><a href="https://s2sp-protocol.github.io/index.html" target="_blank">S2SP Protocol</a></h3>
+        <p>An open protocol extension for MCP enabling direct server-to-server data transfer, achieving 83&ndash;93% token savings.</p>
+        <div class="project-meta">
+          <span>Python</span>
+          <span>MCP Extension</span>
         </div>
       </div>
     </div>
